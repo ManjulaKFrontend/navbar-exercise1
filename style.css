@@ -1,0 +1,216 @@
+
+/*navbar1*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+
+}
+.header-container1{
+    width:100%;
+    height:15vh;  
+}
+.navbar1{
+    width: 100%;
+    height: 15vh;
+    background-color:lightgreen;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{ 
+    font-size: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left:5%;
+  width: 50%;
+  
+
+}
+.navlinks1{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:30%;
+}
+.navlinks1 li{
+    list-style-type: none;
+    margin-left:13%;
+}
+.navlinks1 li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    color:white;
+  padding-left: 10px;
+  padding-right: 5px;
+   justify-content: space-between;
+
+    
+}
+.navlinks1 li a:hover{
+    background-color: grey;
+    color:white;
+
+}
+    
+.sign{
+   width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   margin-left:8%;
+
+}
+.sign li{
+    list-style-type: none;
+ 
+   
+}
+
+.sign li a {
+    text-decoration: none;
+    color: white; background-color: blue;
+    font-size: 15px;
+    border-radius: 5px;
+    padding:10px 20px 10px 20px;
+
+   
+    
+     
+    
+    
+    
+}
+.sign li a:hover{
+    background-color: grey;
+    color: white;
+}
+
+.search {
+    list-style-type: none;
+   display: flex;
+   margin-left: 2%;
+   margin-right: 2%;
+    
+}
+.search li{
+   list-style-type: none;
+}
+.search li a{
+    text-decoration: none;
+    color:white;
+  padding-left: 10px;
+  padding-right: 15px;
+
+   
+}
+.cart{ list-style-type: none;
+    }
+.cart li{
+   
+   
+}    
+.cart li a{
+    text-decoration: none;
+    color:white;
+    padding-left: 20px;
+    padding-right:250px;
+   
+    
+}
+
+
+
+
+
+/*navbar2*/
+.header-container2{
+    width: 100%;
+    height: 15vh;
+}
+h2{
+    padding-left: 5%;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navlinks2{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30%;
+    color: white;
+   
+   
+    
+}
+.navlinks2 li{
+list-style-type: none;
+margin-left: 20%;
+font-size: 20px;
+}
+
+.navlinks2 li i{
+    text-decoration: none;
+    font-size:20px;
+    text-transform: capitalize;
+    color:white;
+  padding-left: 100px; 
+  padding-right: 5px;
+  
+  
+}
+.navlinks3 li{
+    list-style-type: none;
+    margin-left: -10%;
+    font-size: 20px;
+    }
+    
+    .navlinks3 li i{
+        text-decoration: none;
+        font-size:20px;
+        text-transform: capitalize;
+        color:white;
+      padding-left: 100px; 
+      padding-right: 5px;
+      
+      
+    }
+    .navlinks4 li{
+        list-style-type: none;
+        margin-left: -20%;
+        font-size: 20px;
+        }
+        
+        .navlinks4 li i{
+            text-decoration: none;
+            font-size:20px;
+            text-transform: capitalize;
+            color:white;
+          padding-left: 100px; 
+          padding-right: 5px;
+          
+          
+        }
+.navbar2{ width: 100%;
+    height: 15vh;
+    background-color:red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
